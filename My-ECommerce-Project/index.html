@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My E-Shop</title>
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header class="header">
+    <h1>My E-Shop</h1>
+    <p>Browse categories and filter by price</p>
+    <a href="products.html" class="all-products-link">See All Products</a>
+  </header>
+
+  <!-- Filters Section -->
+  <section class="filters">
+    <div id="categoryButtons"><!-- Category buttons will be added dynamically --></div>
+    
+    <div class="price-filter">
+      <label for="priceRange">Max price: ₹<span id="priceValue">50000</span></label>
+      <input type="range" id="priceRange" min="0" max="50000" step="100" value="50000">
+      <button id="resetFilters">Reset Filters</button>
+    </div>
+  </section>
+
+  <!-- Products List -->
+  <main id="products" class="product-list">
+    <!-- Products will be displayed here dynamically -->
+  </main>
+
+  <!-- Cart Section -->
+  <div id="cartContainer">
+    <h2>Your Cart</h2>
+    <div id="cartItems"><!-- Items added to cart will appear here --></div>
+    <p>Total: ₹<span id="cartTotal">0</span></p>
+    <button id="checkoutBtn">Checkout</button>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <small>Project for Web Dev – HTML, CSS & JS</small>
+  </footer>
+
+  <script src="scripts/app.js"></script>
+</body>
+</html>
