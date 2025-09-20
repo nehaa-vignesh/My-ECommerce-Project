@@ -1,4 +1,6 @@
+## E-Commerce Product Listing Website
 
+A basic e-commerce website that allows users to browse products across different categories such as Electronics, Clothing, and Accessories. Users can view products in a grid layout, filter by price or attributes, and optionally view detailed product information.
 ---
 
 ## Features
@@ -42,11 +44,5 @@ This project helped me understand how to:
 
 ---
 
-## Images
-*(Add screenshots here for homepage, product list, and product model popup)*
 
----
-
-## GitHub Repository
-You can check the full project on [GitHub](#) *(replace # with your repo link)*
 
